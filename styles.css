@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-banner {
+    position: relative;
+    text-align: center;
+    height: 17cm;
+    overflow: hidden;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: 19cm;
+    object-position: center top;
+}
+
+.hero-content {
+    position: absolute;
+    top: 46%;
+    left: 5cm;
+    transform: translateY(-50%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 8);
+}
+
+.sub-heading {
+    color: rgba(255, 255, 255, 0.8); /* Gestion de l'opacité avec la 4ème donnée */
+    font-size: 1em; /* Ajuste la taille */
+    margin-top: 1px; /* Ajoute un espacement par rapport au h1 */
+    margin-left: -13cm;
+}
+.title {
+    text-align: center; /* centre le texte */
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: pink; /* Couleur de fond du bouton */
+    color: black; /* Couleur du texte du bouton */
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+    font-size: 20px;
+    text-align: left; /* Aligne le texte à la marge gauche */
+    padding-left: 10px; /* Ajoute un espacement à gauche du texte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center; /* Ajoute cette propriété pour centrer le texte */
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px;
+}
+
+.card {
+    width: calc(30% - 2cm); /* Ajoute de l'espacement entre les cartes */   
+    width: 200px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0,3);
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1.1em;
+    opacity: 0.7;
+}
+
+footer {
+    background-color: pink;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-right: 10px;
+    color: black; /* Couleur des icônes */
+}
+.icon:hover{
+    color: green;
+}
